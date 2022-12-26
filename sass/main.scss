@@ -1,0 +1,19 @@
+@import "./utils/_vars";
+@import "./utils/placeholder";
+@import "./utils/visually-hidden";
+
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/section";
+@import "./components/section__title";
+@import "./components/modal";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/about";
+@import "./layouts/production";
+@import "./layouts/position";
+@import "./layouts/customers";
+@import "./layouts/portfolio";
+@import "./layouts/footer";

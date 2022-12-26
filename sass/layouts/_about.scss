@@ -1,0 +1,30 @@
+.about__img{
+    margin-bottom: 30px;
+    background: var(--background-light);
+    border-radius: 4px;
+    height: 120px;
+    @extend %flex-align;
+    justify-content: center;
+  }
+  
+  .about-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  
+  .about__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .about__description {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--gray);
+    width: 270px;
+  }
